@@ -1,12 +1,6 @@
-Welcome!
-Learn how to use this tour: including how to navigate the different lessons and how to run code.
+* Hello, 世界 from mars :satellite:
 
-The Go Authors
-https://golang.org
-
-* Hello, 世界
-
-Welcome to a tour of the [[/][Go programming language]].
+Welcome to a tour of the Go programming language.
 
 The tour is divided into a list of modules that you can
 access by clicking on
@@ -24,7 +18,8 @@ You can navigate through them using
 - [[javascript:highlight(".next-page")]["next"]] or `PageDown` to go to the next page.
 
 The tour is interactive. Click the
-[[javascript:highlightAndClick("#run")][Run]] button now
+[[javascript:highlightAndClick("#run")][Run]]
+<a style="cursor: pointer" onclick="highlightAndClick('#runButton')">Run</a> button now
 (or press `Shift` + `Enter`) to compile and run the program on
 #appengine: a remote server.
 your computer.
