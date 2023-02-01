@@ -1,4 +1,4 @@
-* Hello, 世界 from mars :satellite:
+* Hello, 世界 from Web Assembly :satellite:
 
 Welcome to a tour of the Go programming language.
 
