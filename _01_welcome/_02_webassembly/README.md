@@ -1,4 +1,4 @@
-* The Go Playground
+* The Go Playground &nbsp;&nbsp;&nbsp;&nbsp;<span id="_01_welcome/_02_webassembly"></span>
 
 This tour is built atop the web assembly, it runs inside your web browser so your code stays private.
 

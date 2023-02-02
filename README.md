@@ -7,13 +7,13 @@
                     <span>Welcome!</span>
                     <ul>
                         <li >
-                            <a class="square" id="_01_welcome/_01_hello" onclick="pathOpen(this.id)">Hello, 世界</a>
+                            <a id="home/src/github.com/dougwatson/tour/_01_welcome/_01_hello" onclick="pathOpen(this.id)">Hello, 世界</a>
                         </li>
 						<li>
-                            <a class="square" id="_01_welcome/_02_webassembly" onclick="pathOpen(this.id)">Go local</a>
+                            <a id="home/src/github.com/dougwatson/tour/_01_welcome/_02_webassembly" onclick="pathOpen(this.id)">Go local</a>
                         </li>
 						<li>
-                            <a class="square" id="_01_welcome/_03_congratulations" onclick="pathOpen(this.id)">Congratulations</a>
+                            <a id="home/src/github.com/dougwatson/tour/_01_welcome/_03_congratulations" onclick="pathOpen(this.id)">Congratulations</a>
                         </li>
                     </ul>
                 </li>
@@ -25,9 +25,9 @@
                     <span ng-click="toggleLesson(l)" class="ng-binding">Packages, variables, and functions.</span>
                     <ul>
                         <li ng-repeat="p in m.lesson[l].Pages" class="toc-page ng-scope" ng-class="{active: l==params.lessonId &amp;&amp; $index+1==params.pageNumber}">
-                            <a class="square" href="/basics/1" ng-click="hideTOC(true)" class="ng-binding">Packages</a>
+                            <a href="/home/src/github.com/dougwatson/tour/_01_basics/_01_basics" ng-click="hideTOC(true)" class="ng-binding">Packages</a>
                         </li><li ng-repeat="p in m.lesson[l].Pages" class="toc-page ng-scope" ng-class="{active: l==params.lessonId &amp;&amp; $index+1==params.pageNumber}">
-                            <a class="square" href="/basics/2" ng-click="hideTOC(true)" class="ng-binding">Imports</a>
+                            <a href="/basics/2" ng-click="hideTOC(true)" class="ng-binding">Imports</a>
                         </li><li ng-repeat="p in m.lesson[l].Pages" class="toc-page ng-scope" ng-class="{active: l==params.lessonId &amp;&amp; $index+1==params.pageNumber}">
                             <a href="/basics/3" ng-click="hideTOC(true)" class="ng-binding">Exported names</a>
                         </li><li ng-repeat="p in m.lesson[l].Pages" class="toc-page ng-scope" ng-class="{active: l==params.lessonId &amp;&amp; $index+1==params.pageNumber}">

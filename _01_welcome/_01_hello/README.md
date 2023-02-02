@@ -1,4 +1,4 @@
-* Hello, 世界 from Web Assembly :satellite:
+* Hello, 世界 from Web Assembly :satellite: &nbsp;&nbsp;&nbsp;&nbsp;<span id="_01_welcome/_01_hello"></span>
 
 Welcome to a tour of the Go programming language.
 
