@@ -6,14 +6,14 @@
                 <li>
                     <span>Welcome!</span>
                     <ul>
-                        <li style="list-style-type: none; content: \2713';" >
-                            <a class="check" onclick="pathOpen('home/src/github.com/dougwatson/tour/_01_welcome/_01_hello/README.md')">Hello, 世界</a>
+                        <li >
+                            <a class="square" id="_01_welcome/_01_hello" onclick="pathOpen(this.id)">Hello, 世界</a>
                         </li>
-												<li>
-                            <a class="square" onclick="pathOpen('home/src/github.com/dougwatson/tour/_01_welcome/_02_webassembly/README.md')">Go local</a>
+						<li>
+                            <a class="square" id="_01_welcome/_02_webassembly" onclick="pathOpen(this.id)">Go local</a>
                         </li>
-												<li>
-                            <a class="square" onclick="pathOpen('home/src/github.com/dougwatson/tour/_01_welcome/_03_congratulations/README.md')">Congratulations</a>
+						<li>
+                            <a class="square" id="_01_welcome/_03_congratulations" onclick="pathOpen(this.id)">Congratulations</a>
                         </li>
                     </ul>
                 </li>
@@ -24,7 +24,7 @@
                 <li ng-repeat="l in m.lessons" class="toc-lesson ng-scope active" id="toc-l-basics" ng-class="{active: l==params.lessonId}">
                     <span ng-click="toggleLesson(l)" class="ng-binding">Packages, variables, and functions.</span>
                     <ul>
-                        <!-- ngRepeat: p in m.lesson[l].Pages --><li ng-repeat="p in m.lesson[l].Pages" class="toc-page ng-scope" ng-class="{active: l==params.lessonId &amp;&amp; $index+1==params.pageNumber}">
+                        <li ng-repeat="p in m.lesson[l].Pages" class="toc-page ng-scope" ng-class="{active: l==params.lessonId &amp;&amp; $index+1==params.pageNumber}">
                             <a class="square" href="/basics/1" ng-click="hideTOC(true)" class="ng-binding">Packages</a>
                         </li><li ng-repeat="p in m.lesson[l].Pages" class="toc-page ng-scope" ng-class="{active: l==params.lessonId &amp;&amp; $index+1==params.pageNumber}">
                             <a class="square" href="/basics/2" ng-click="hideTOC(true)" class="ng-binding">Imports</a>
@@ -98,7 +98,7 @@
                 <li ng-repeat="l in m.lessons" class="toc-lesson ng-scope" id="toc-l-moretypes" ng-class="{active: l==params.lessonId}">
                     <span ng-click="toggleLesson(l)" class="ng-binding">More types: structs, slices, and maps.</span>
                     <ul>
-                        <!-- ngRepeat: p in m.lesson[l].Pages --><li ng-repeat="p in m.lesson[l].Pages" class="toc-page ng-scope" ng-class="{active: l==params.lessonId &amp;&amp; $index+1==params.pageNumber}" style="display: block;">
+                        <li ng-repeat="p in m.lesson[l].Pages" class="toc-page ng-scope" ng-class="{active: l==params.lessonId &amp;&amp; $index+1==params.pageNumber}" style="display: block;">
                             <a href="/moretypes/1" ng-click="hideTOC(true)" class="ng-binding">Pointers</a>
                         </li><li ng-repeat="p in m.lesson[l].Pages" class="toc-page ng-scope" ng-class="{active: l==params.lessonId &amp;&amp; $index+1==params.pageNumber}" style="display: block;">
                             <a href="/moretypes/2" ng-click="hideTOC(true)" class="ng-binding">Structs</a>
@@ -162,7 +162,7 @@
                 <!-- ngRepeat: l in m.lessons --><li ng-repeat="l in m.lessons" class="toc-lesson ng-scope" id="toc-l-methods" ng-class="{active: l==params.lessonId}">
                     <span ng-click="toggleLesson(l)" class="ng-binding">Methods and interfaces</span>
                     <ul>
-                        <!-- ngRepeat: p in m.lesson[l].Pages --><li ng-repeat="p in m.lesson[l].Pages" class="toc-page ng-scope" ng-class="{active: l==params.lessonId &amp;&amp; $index+1==params.pageNumber}" style="display: block;">
+                        <li ng-repeat="p in m.lesson[l].Pages" class="toc-page ng-scope" ng-class="{active: l==params.lessonId &amp;&amp; $index+1==params.pageNumber}" style="display: block;">
                             <a href="/methods/1" ng-click="hideTOC(true)" class="ng-binding">Methods</a>
                         </li><li ng-repeat="p in m.lesson[l].Pages" class="toc-page ng-scope" ng-class="{active: l==params.lessonId &amp;&amp; $index+1==params.pageNumber}" style="display: block;">
                             <a href="/methods/2" ng-click="hideTOC(true)" class="ng-binding">Methods are functions</a>
@@ -224,7 +224,7 @@
                 <!-- ngRepeat: l in m.lessons --><li ng-repeat="l in m.lessons" class="toc-lesson ng-scope" id="toc-l-generics" ng-class="{active: l==params.lessonId}">
                     <span ng-click="toggleLesson(l)" class="ng-binding">Generics</span>
                     <ul>
-                        <!-- ngRepeat: p in m.lesson[l].Pages --><li ng-repeat="p in m.lesson[l].Pages" class="toc-page ng-scope" ng-class="{active: l==params.lessonId &amp;&amp; $index+1==params.pageNumber}" style="display: block;">
+                        <li ng-repeat="p in m.lesson[l].Pages" class="toc-page ng-scope" ng-class="{active: l==params.lessonId &amp;&amp; $index+1==params.pageNumber}" style="display: block;">
                             <a href="/generics/1" ng-click="hideTOC(true)" class="ng-binding">Type parameters</a>
                         </li><li ng-repeat="p in m.lesson[l].Pages" class="toc-page ng-scope" ng-class="{active: l==params.lessonId &amp;&amp; $index+1==params.pageNumber}" style="display: block;">
                             <a href="/generics/2" ng-click="hideTOC(true)" class="ng-binding">Generic types</a>
@@ -240,7 +240,7 @@
                 <!-- ngRepeat: l in m.lessons --><li ng-repeat="l in m.lessons" class="toc-lesson ng-scope" id="toc-l-concurrency" ng-class="{active: l==params.lessonId}">
                     <span ng-click="toggleLesson(l)" class="ng-binding">Concurrency</span>
                     <ul>
-                        <!-- ngRepeat: p in m.lesson[l].Pages --><li ng-repeat="p in m.lesson[l].Pages" class="toc-page ng-scope" ng-class="{active: l==params.lessonId &amp;&amp; $index+1==params.pageNumber}" style="display: block;">
+                        <li ng-repeat="p in m.lesson[l].Pages" class="toc-page ng-scope" ng-class="{active: l==params.lessonId &amp;&amp; $index+1==params.pageNumber}" style="display: block;">
                             <a href="/concurrency/1" ng-click="hideTOC(true)" class="ng-binding">Goroutines</a>
                         </li><li ng-repeat="p in m.lesson[l].Pages" class="toc-page ng-scope" ng-class="{active: l==params.lessonId &amp;&amp; $index+1==params.pageNumber}" style="display: block;">
                             <a href="/concurrency/2" ng-click="hideTOC(true)" class="ng-binding">Channels</a>
