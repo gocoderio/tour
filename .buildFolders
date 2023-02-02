@@ -31,3 +31,4 @@ grep ^.play concurrency.article |sed 's/\.go//'|cat -n|awk '{printf "%02d/%s\n",
 #├── _02_channels
 #│   └── main.go
 
+sed -i '' 's/^.. .build OMIT//' */*/main.go  

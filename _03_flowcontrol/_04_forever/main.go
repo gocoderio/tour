@@ -1,4 +1,4 @@
-// +build no-run OMIT
+
 
 package main
 
