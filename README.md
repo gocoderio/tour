@@ -270,3 +270,17 @@
     </ul>
     <div class="click-catcher" ng-click="hideTOC(false)"></div>
 </div>
+
+move the files and make folders for the new ordering system:
+Run this from the base tour directory.
+
+grep ^.play methods.article|sed 's/.go//'|cat -n|awk '{printf "%02d/%s\n",$1,$3}'|awk -F'/' '{printf "mkdir _05_methods/_%02d_%s;mv _05_methods/%s.go _05_methods/_%02d_%s/main.go\n",$1,$3,$3,$1,$3}'
+mkdir _05_methods/_01_methods;mv _05_methods/methods.go _05_methods/_01_methods/main.go
+mkdir _05_methods/_02_methods-funcs;mv _05_methods/methods-funcs.go _05_methods/_02_methods-funcs/main.go
+
+cp README over:
+for k in *methods/*;do cp methods.article $k/README.md;done
+cp methods.article _05_methods/_01_methods/README.md
+cp methods.article _05_methods/_02_methods-funcs/README.md
+cp methods.article _05_methods/_03_methods-continued/README.md
+
