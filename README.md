@@ -4,3 +4,6 @@
   
 
 [<img target="_blank" src="static/img/gocoder.png">](http://app.gocoder.io)
+
+  <a href="https://go.dev/tour/welcome/1">Based on the original 'Tour of Go', by the Go Authors</a>
+  
