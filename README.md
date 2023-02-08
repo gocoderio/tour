@@ -1,6 +1,6 @@
 # Hello, from web assembly
 
-&nbsp;&nbsp;&nbsp;&nbsp;<span id="home/src/github.com/gocoderpro/tour">Run the complete 'Tour of Go' in your web browser (no internet required!)<span>
+&nbsp;&nbsp;&nbsp;&nbsp;<span id="home/src/github.com/gocoderpro/tour">Run the complete 'Tour of Go' in your web browser.<span>
 <br><br>
 
 [<img target="_blank" src="static/img/gocoder.png">](http://app.gocoder.io)
