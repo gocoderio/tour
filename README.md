@@ -1,7 +1,7 @@
 <center>
 <h1 style="color:#2ECC71">Hello, from web assembly</h1>
 <p style="padding-left:35px;padding-right:35px;font-size:small">
-Web assembly is a browser technology that lets you create and run applications your own web browser. This is up to 100x faster than cloud based programming (sending your code to the cloud and then waiting for the results).
+Web assembly is a browser technology that lets you create and run applications your own web browser. This is about 20x faster than cloud based programming (sending your code to the cloud and then waiting for the results).
 </p>
 <br>
 <p style="padding-left:15px;padding-right:15px;">
