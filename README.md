@@ -1,6 +1,6 @@
 <center>
-<h1>Hello, from web assembly</h1>
-<p style="padding:20px">
+<h1 style="color:#2ECC71">Hello, from web assembly</h1>
+<p style="padding:25px">
 &nbsp;&nbsp;&nbsp;&nbsp;<span id="home/src/github.com/gocoderpro/tour">Run the complete <b>'Tour of Go'</b> in your web browser. Try turning off your internet and see that it still works!<span>
 <br><br>
 
