@@ -1,5 +1,3 @@
-// +build no-build OMIT
-
 package main
 
 import "golang.org/x/tour/pic"
