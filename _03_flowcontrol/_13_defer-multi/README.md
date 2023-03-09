@@ -1,4 +1,13 @@
-* Stacking defers
+<div id="chart" class="mermaid">
+graph TD;
+A[Start] --> B[Print counting];
+B --> C[For loop];
+C --> D[Defer Print i];
+D --> C;
+C --> E[Print done];
+</div>
+
+# Stacking defers
 
 Deferred function calls are pushed onto a stack. When a function returns, its
 deferred calls are executed in last-in-first-out order.
@@ -6,7 +15,7 @@ deferred calls are executed in last-in-first-out order.
 To learn more about defer statements read this
 [[/blog/defer-panic-and-recover][blog post]].
 
-.play flowcontrol/defer-multi.go
+--------------------
 
 * Congratulations!
 

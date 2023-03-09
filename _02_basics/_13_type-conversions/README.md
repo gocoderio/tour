@@ -1,5 +1,12 @@
-* Type conversions
+<div id="chart" class="mermaid">
+graph TD;
+A[Start] --> B[Declare variables];
+B --> C[Calculate f];
+C --> D[Convert f to uint];
+D --> E[Print variables];
+</div>
 
+# Type conversions
 The expression `T(v)` converts the value `v` to the type `T`.
 
 Some numeric conversions:
@@ -17,6 +24,4 @@ Or, put more simply:
 Unlike in C, in Go assignment between items of different type requires an
 explicit conversion.
 Try removing the `float64` or `uint` conversions in the example and see what happens.
-
-.play basics/type-conversions.go
 

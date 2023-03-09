@@ -1,4 +1,12 @@
-* Exercise: Loops and Functions
+<div id="chart" class="mermaid">
+graph TD;
+A[Start] --> B[Declare function Sqrt];
+B --> C[Calculate square root of x];
+C --> D[Return square root of x];
+D --> E["Print Sqrt(2)"];
+</div>
+
+# Exercise: Loops and Functions
 
 As a way to play with functions and loops, let's implement a square root function: given a number x, we want to find the number z for which z² is most nearly x.
 

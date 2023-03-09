@@ -1,5 +1,10 @@
-* Type inference
+<div id="chart" class="mermaid">
+graph TD;
+A[Start] --> B[Declare variable v];
+B --> C[Print variable type];
+</div>
 
+# Type inference
 When declaring a variable without specifying an explicit type (either by using the `:=` syntax or `var`=` expression syntax), the variable's type is inferred from the value on the right hand side.
 
 When the right hand side of the declaration is typed, the new variable is of that same type:
@@ -14,6 +19,4 @@ But when the right hand side contains an untyped numeric constant, the new varia
 	g := 0.867 + 0.5i // complex128
 
 Try changing the initial value of `v` in the example code and observe how its type is affected.
-
-.play basics/type-inference.go
 

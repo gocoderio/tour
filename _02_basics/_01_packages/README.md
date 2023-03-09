@@ -1,4 +1,11 @@
-* Packages
+<div id="chart" class="mermaid">
+graph TD;
+    A[Start] --> B["Print My favorite number is"]
+    B --> C[Generate random number]
+    C --> D[Print random number]
+</div>
+
+# Packages
 
 Every Go program is made up of packages.
 

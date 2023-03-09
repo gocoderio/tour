@@ -12,6 +12,8 @@ func main() {
 		fmt.Println("OS X.")
 	case "linux":
 		fmt.Println("Linux.")
+	case "js":
+		fmt.Println("js !!!")
 	default:
 		// freebsd, openbsd,
 		// plan9, windows...

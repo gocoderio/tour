@@ -1,5 +1,9 @@
-* Hello, 世界 from Web Assembly :satellite:
+<div id="chart" class="mermaid">
+flowchart TD
+start[Start] --> print["Print Hello, 世界"]
+</div>
 
+# Hello, 世界 from Web Assembly :satellite:
 Welcome to a tour of the Go programming language.
 
 The tour is divided into a list of modules that you can

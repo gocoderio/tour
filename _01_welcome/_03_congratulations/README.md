@@ -1,7 +1,4 @@
-
-
-
-* Congratulations
+# Congratulations
 
 You've finished the first module of the tour!
 
