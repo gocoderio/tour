@@ -1,6 +1,10 @@
 <div id="chart" class="mermaid">
-flowchart TD
-start[Start] --> print["Print Hello, 世界"]
+graph TD
+    A[Start]:::lineNumber=1
+    B[Import fmt package]:::lineNumber=3
+    C[Print "Hello, 世界"]:::lineNumber=6
+    A --> B
+    B --> C
 </div>
 
 # Hello, 世界 from Web Assembly :satellite:
