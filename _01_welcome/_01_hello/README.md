@@ -2,7 +2,7 @@
 graph TD
     A[Start]:::lineNumber=1
     B[Import fmt package]:::lineNumber=3
-    C[Print "Hello, 世界"]:::lineNumber=6
+    C["Print Hello, 世界"]:::lineNumber=6
     A --> B
     B --> C
 </div>
