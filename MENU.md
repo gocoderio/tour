@@ -10,7 +10,7 @@
                             <a id="home/src/github.com/gocoderpro/tour/_01_welcome/_01_hello" onclick="lessonOpen(this.id)">Hello, 世界</a>
                         </li>
 						<li>
-                            <a id="home/src/github.com/gocoderpro/tour/_01_welcome/_02_webassembly" onclick="lessonOpen(this.id)" class="greyedOut" title="Complete the prior lesson to continue here" >Go local</a>
+                            <a id="home/src/github.com/gocoderpro/tour/_01_welcome/_02_webassembly" onclick="lessonOpen(this.id)"  title="Complete the prior lesson to continue here">Go local</a>
                         </li>
 						<li>
                             <a id="home/src/github.com/gocoderpro/tour/_01_welcome/_03_congratulations" onclick="lessonOpen(this.id)" class="greyedOut" title="Complete the prior lesson to continue here" lastLesson>Congratulations</a>
@@ -25,37 +25,37 @@
                     <span ng-click="toggleLesson(l)" class="ng-binding">Packages, variables, and functions.</span>
                     <ul>
                         <li ng-repeat="p in m.lesson[l].Pages" class="toc-page ng-scope" ng-class="{active: l==params.lessonId &amp;&amp; $index+1==params.pageNumber}">
-                            <a id="home/src/github.com/gocoderpro/tour/_02_basics/_01_packages" onclick="lessonOpen(this.id)" class="greyedOut">Packages</a>
+                            <a id="home/src/github.com/gocoderpro/tour/_02_basics/_01_packages" onclick="lessonOpen(this.id)">Packages</a>
                         </li><li ng-repeat="p in m.lesson[l].Pages" class="toc-page ng-scope" ng-class="{active: l==params.lessonId &amp;&amp; $index+1==params.pageNumber}">
-                            <a id="home/src/github.com/gocoderpro/tour/_02_basics/_02_imports" onclick="lessonOpen(this.id)" class="greyedOut">Imports</a>
+                            <a id="home/src/github.com/gocoderpro/tour/_02_basics/_02_imports" onclick="lessonOpen(this.id)">Imports</a>
                         </li><li ng-repeat="p in m.lesson[l].Pages" class="toc-page ng-scope" ng-class="{active: l==params.lessonId &amp;&amp; $index+1==params.pageNumber}">
-                            <a id="home/src/github.com/gocoderpro/tour/_02_basics/_03_exported-names" onclick="lessonOpen(this.id)" class="greyedOut">Exported names</a>
+                            <a id="home/src/github.com/gocoderpro/tour/_02_basics/_03_exported-names" onclick="lessonOpen(this.id)">Exported names</a>
                         </li><li ng-repeat="p in m.lesson[l].Pages" class="toc-page ng-scope" ng-class="{active: l==params.lessonId &amp;&amp; $index+1==params.pageNumber}">
-                            <a id="home/src/github.com/gocoderpro/tour/_02_basics/_04_functions" onclick="lessonOpen(this.id)" class="greyedOut">Functions</a>
+                            <a id="home/src/github.com/gocoderpro/tour/_02_basics/_04_functions" onclick="lessonOpen(this.id)">Functions</a>
                         </li><li ng-repeat="p in m.lesson[l].Pages" class="toc-page ng-scope" ng-class="{active: l==params.lessonId &amp;&amp; $index+1==params.pageNumber}">
-                            <a id="home/src/github.com/gocoderpro/tour/_02_basics/_05_functions-continued" onclick="lessonOpen(this.id)" class="greyedOut">Functions continued</a>
+                            <a id="home/src/github.com/gocoderpro/tour/_02_basics/_05_functions-continued" onclick="lessonOpen(this.id)">Functions continued</a>
                         </li><li ng-repeat="p in m.lesson[l].Pages" class="toc-page ng-scope" ng-class="{active: l==params.lessonId &amp;&amp; $index+1==params.pageNumber}">
-                            <a id="home/src/github.com/gocoderpro/tour/_02_basics/_06_multiple-results" onclick="lessonOpen(this.id)" class="greyedOut">Multiple results</a>
+                            <a id="home/src/github.com/gocoderpro/tour/_02_basics/_06_multiple-results" onclick="lessonOpen(this.id)">Multiple results</a>
                         </li><li ng-repeat="p in m.lesson[l].Pages" class="toc-page ng-scope" ng-class="{active: l==params.lessonId &amp;&amp; $index+1==params.pageNumber}">
-                            <a id="home/src/github.com/gocoderpro/tour/_02_basics/_07_named-results" onclick="lessonOpen(this.id)" class="greyedOut">Named return values</a>
+                            <a id="home/src/github.com/gocoderpro/tour/_02_basics/_07_named-results" onclick="lessonOpen(this.id)">Named return values</a>
                         </li><li ng-repeat="p in m.lesson[l].Pages" class="toc-page ng-scope" ng-class="{active: l==params.lessonId &amp;&amp; $index+1==params.pageNumber}">
-                            <a id="home/src/github.com/gocoderpro/tour/_02_basics/_08_variables" onclick="lessonOpen(this.id)" class="greyedOut">Variables</a>
+                            <a id="home/src/github.com/gocoderpro/tour/_02_basics/_08_variables" onclick="lessonOpen(this.id)">Variables</a>
                         </li><li ng-repeat="p in m.lesson[l].Pages" class="toc-page ng-scope" ng-class="{active: l==params.lessonId &amp;&amp; $index+1==params.pageNumber}">
-                            <a id="home/src/github.com/gocoderpro/tour/_02_basics/_09_variables-with-initializers" onclick="lessonOpen(this.id)" class="greyedOut">Variables with initializers</a>
+                            <a id="home/src/github.com/gocoderpro/tour/_02_basics/_09_variables-with-initializers" onclick="lessonOpen(this.id)">Variables with initializers</a>
                         </li><li ng-repeat="p in m.lesson[l].Pages" class="toc-page ng-scope active" ng-class="{active: l==params.lessonId &amp;&amp; $index+1==params.pageNumber}">
-                            <a id="home/src/github.com/gocoderpro/tour/_02_basics/_10_short-variable-declarations" onclick="lessonOpen(this.id)" class="greyedOut">Short variables declarations</a>
+                            <a id="home/src/github.com/gocoderpro/tour/_02_basics/_10_short-variable-declarations" onclick="lessonOpen(this.id)">Short variables declarations</a>
                         </li><li ng-repeat="p in m.lesson[l].Pages" class="toc-page ng-scope" ng-class="{active: l==params.lessonId &amp;&amp; $index+1==params.pageNumber}">
-                            <a id="home/src/github.com/gocoderpro/tour/_02_basics/_11_basic-types" onclick="lessonOpen(this.id)" class="greyedOut">Basic types</a>
+                            <a id="home/src/github.com/gocoderpro/tour/_02_basics/_11_basic-types" onclick="lessonOpen(this.id)">Basic types</a>
                         </li><li ng-repeat="p in m.lesson[l].Pages" class="toc-page ng-scope" ng-class="{active: l==params.lessonId &amp;&amp; $index+1==params.pageNumber}">
-                            <a id="home/src/github.com/gocoderpro/tour/_02_basics/_12_zero" onclick="lessonOpen(this.id)" class="greyedOut">Zero values</a>
+                            <a id="home/src/github.com/gocoderpro/tour/_02_basics/_12_zero" onclick="lessonOpen(this.id)">Zero values</a>
                         </li><li ng-repeat="p in m.lesson[l].Pages" class="toc-page ng-scope" ng-class="{active: l==params.lessonId &amp;&amp; $index+1==params.pageNumber}">
-                            <a id="home/src/github.com/gocoderpro/tour/_02_basics/_13_type-conversions" onclick="lessonOpen(this.id)" class="greyedOut">Type conversions</a>
+                            <a id="home/src/github.com/gocoderpro/tour/_02_basics/_13_type-conversions" onclick="lessonOpen(this.id)">Type conversions</a>
                         </li><li ng-repeat="p in m.lesson[l].Pages" class="toc-page ng-scope" ng-class="{active: l==params.lessonId &amp;&amp; $index+1==params.pageNumber}">
-                            <a id="home/src/github.com/gocoderpro/tour/_02_basics/_14_type-inference" onclick="lessonOpen(this.id)" class="greyedOut">Type inference</a>
+                            <a id="home/src/github.com/gocoderpro/tour/_02_basics/_14_type-inference" onclick="lessonOpen(this.id)">Type inference</a>
                         </li><li ng-repeat="p in m.lesson[l].Pages" class="toc-page ng-scope" ng-class="{active: l==params.lessonId &amp;&amp; $index+1==params.pageNumber}">
-                            <a id="home/src/github.com/gocoderpro/tour/_02_basics/_15_constants" onclick="lessonOpen(this.id)" class="greyedOut">Constants</a>
+                            <a id="home/src/github.com/gocoderpro/tour/_02_basics/_15_constants" onclick="lessonOpen(this.id)">Constants</a>
                         </li><li ng-repeat="p in m.lesson[l].Pages" class="toc-page ng-scope" ng-class="{active: l==params.lessonId &amp;&amp; $index+1==params.pageNumber}">
-                            <a id="home/src/github.com/gocoderpro/tour/_02_basics/_16_numeric-constants" onclick="lessonOpen(this.id)" class="greyedOut">numeric constants</a>
+                            <a id="home/src/github.com/gocoderpro/tour/_02_basics/_16_numeric-constants" onclick="lessonOpen(this.id)">numeric constants</a>
                         </li>
                     </ul>
                 </li>
