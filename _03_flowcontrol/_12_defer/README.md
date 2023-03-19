@@ -11,3 +11,5 @@ function returns.
 
 The deferred call's arguments are evaluated immediately, but the function call
 is not executed until the surrounding function returns.
+
+<a onclick="nextOpen();confetti()">next lesson</a>

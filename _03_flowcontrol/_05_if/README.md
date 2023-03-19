@@ -12,3 +12,5 @@ E --> G["Print sqrt(-4)"];
 
 Go's `if` statements are like its `for` loops; the expression need not be
 surrounded by parentheses `(`)` but the braces `{`}` are required.
+
+<a onclick="nextOpen()">next lesson</a>

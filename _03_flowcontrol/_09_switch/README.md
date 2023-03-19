@@ -19,3 +19,5 @@ In effect, the `break` statement that is needed at the end of each case in those
 languages is provided automatically in Go.
 Another important difference is that Go's switch cases need not
 be constants, and the values involved need not be integers.
+
+<a onclick="nextOpen()">next lesson</a>

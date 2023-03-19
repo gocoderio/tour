@@ -15,4 +15,4 @@ provided it has sufficient capacity.
 Try changing one of the slice operations in the example program to extend it
 beyond its capacity and see what happens.
 
-.play moretypes/slice-len-cap.go
+<a onclick="nextOpen()">next lesson</a>

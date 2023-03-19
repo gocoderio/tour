@@ -15,3 +15,4 @@ You can also write multiple import statements, like:
 
 But it is good style to use the factored import statement.
 
+<a onclick="nextOpen()">next lesson</a>

@@ -2,4 +2,4 @@
 
 A `struct` is a collection of fields.
 
-.play moretypes/structs.go
+<a onclick="nextOpen()">next lesson</a>

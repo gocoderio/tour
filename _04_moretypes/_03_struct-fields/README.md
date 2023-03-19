@@ -2,4 +2,4 @@
 
 Struct fields are accessed using a dot.
 
-.play moretypes/struct-fields.go
+<a onclick="nextOpen()">next lesson</a>

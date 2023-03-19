@@ -28,4 +28,4 @@ These example programs demonstrate different aspects of Go. The programs in the 
 Edit the program and run it again.
 
 When you're ready to move on, click the next lesson below.
-
+<a onclick="nextOpen();">next lesson</a>

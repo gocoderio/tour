@@ -2,4 +2,4 @@
 
 Slices can contain any type, including other slices.
 
-.play moretypes/slices-of-slice.go
+<a onclick="nextOpen()">next lesson</a>

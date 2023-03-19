@@ -20,3 +20,4 @@ But when the right hand side contains an untyped numeric constant, the new varia
 
 Try changing the initial value of `v` in the example code and observe how its type is affected.
 
+<a onclick="nextOpen()">next lesson</a>

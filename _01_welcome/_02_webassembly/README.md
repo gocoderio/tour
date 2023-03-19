@@ -23,4 +23,5 @@ There are limitations to the programs that can be run in a web browser:
 The is web assembly playground uses the latest stable release of Go.
 
 Read `Inside the GoCoder Webassembly` to learn more.
+<a onclick="nextOpen();confetti()">next lesson</a>
 

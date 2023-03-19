@@ -8,4 +8,4 @@ A `nil` map has no keys, nor can keys be added.
 The `make` function returns a map of the given type,
 initialized and ready for use.
 
-.play moretypes/maps.go
+<a onclick="nextOpen()">next lesson</a>

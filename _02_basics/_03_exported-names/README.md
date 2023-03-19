@@ -16,3 +16,5 @@ Any "unexported" names are not accessible from outside the package.
 Run the code. Notice the error message.
 
 To fix the error, rename `math.pi` to `math.Pi` and try it again.
+
+<a onclick="nextOpen()">next lesson</a>

@@ -15,5 +15,5 @@ these slice expressions are equivalent:
 	a[0:]
 	a[:]
 
-.play moretypes/slice-bounds.go
+<a onclick="nextOpen()">next lesson</a>
 

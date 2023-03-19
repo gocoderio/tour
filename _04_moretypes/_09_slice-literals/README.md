@@ -11,4 +11,4 @@ then builds a slice that references it:
 
 	[]bool{true, true, false}
 
-.play moretypes/slice-literals.go
+<a onclick="nextOpen()">next lesson</a>

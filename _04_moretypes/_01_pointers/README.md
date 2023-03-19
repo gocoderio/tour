@@ -21,4 +21,4 @@ This is known as "dereferencing" or "indirecting".
 
 Unlike C, Go has no pointer arithmetic.
 
-.play moretypes/pointers.go
+<a onclick="nextOpen()">next lesson</a>

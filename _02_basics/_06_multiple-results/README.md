@@ -10,3 +10,5 @@ graph TD;
 A function can return any number of results.
 
 The `swap` function returns two strings.
+
+<a onclick="nextOpen()">next lesson</a>

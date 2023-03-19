@@ -18,5 +18,5 @@ array.
 
 (To learn more about slices, read the [[/blog/go-slices-usage-and-internals][Slices: usage and internals]] article.)
 
-.play moretypes/append.go
+<a onclick="nextOpen()">next lesson</a>
 

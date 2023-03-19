@@ -6,4 +6,5 @@ You can list just a subset of fields by using the `Name:` syntax. (And the order
 
 The special prefix `&` returns a pointer to the struct value.
 
-.play moretypes/struct-literals.go
+<a onclick="nextOpen()">next lesson</a>
+

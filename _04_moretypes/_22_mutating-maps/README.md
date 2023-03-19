@@ -23,3 +23,5 @@ If `key` is not in the map, then `elem` is the zero value for the map's element 
 *Note:* If `elem` or `ok` have not yet been declared you could use a short declaration form:
 
 	elem, ok := m[key]
+
+<a onclick="nextOpen()">next lesson</a>

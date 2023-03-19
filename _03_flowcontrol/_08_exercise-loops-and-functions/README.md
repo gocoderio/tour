@@ -43,3 +43,4 @@ of z², to scale how much we adjust z by how quickly z² is changing.
 This general approach is called [[https://en.wikipedia.org/wiki/Newton%27s_method][Newton's method]].
 It works well for many functions but especially well for square root.)
 
+<a onclick="nextOpen()">next lesson</a>

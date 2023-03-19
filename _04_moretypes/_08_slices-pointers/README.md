@@ -8,4 +8,4 @@ corresponding elements of its underlying array.
 
 Other slices that share the same underlying array will see those changes.
 
-.play moretypes/slices-pointers.go
+<a onclick="nextOpen()">next lesson</a>

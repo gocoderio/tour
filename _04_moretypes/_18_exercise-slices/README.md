@@ -8,4 +8,4 @@ The choice of image is up to you. Interesting functions include `(x+y)/2`, `x*y`
 
 (Use `uint8(intValue)` to convert between types.)
 
-.play moretypes/exercise-slices.go
+<a onclick="nextOpen()">next lesson</a>

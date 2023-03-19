@@ -9,4 +9,4 @@ If you only want the index, you can omit the second variable.
 
     for i := range pow
 
-.play moretypes/range-continued.go
+<a onclick="nextOpen()">next lesson</a>

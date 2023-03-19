@@ -11,3 +11,5 @@ E -- No --> F[Print sum];
 # For continued
 
 The init and post statements are optional.
+
+<a onclick="nextOpen()">next lesson</a>

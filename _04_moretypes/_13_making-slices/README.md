@@ -15,4 +15,4 @@ To specify a capacity, pass a third argument to `make`:
 	b = b[:cap(b)] // len(b)=5, cap(b)=5
 	b = b[1:]      // len(b)=4, cap(b)=4
 
-.play moretypes/making-slices.go
+<a onclick="nextOpen()">next lesson</a>

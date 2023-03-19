@@ -29,3 +29,5 @@ does not call `f` if `i==0`.)
 #appengine: *Note:* Time in the Go playground always appears to start at
 #appengine: 2009-11-10 23:00:00 UTC, a value whose significance is left as an
 #appengine: exercise for the reader.
+
+<a onclick="nextOpen()">next lesson</a>

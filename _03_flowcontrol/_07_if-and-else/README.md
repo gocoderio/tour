@@ -16,3 +16,5 @@ of the `else` blocks.
 
 (Both calls to `pow` return their results before the call to `fmt.Println`
 in `main` begins.)
+
+<a onclick="nextOpen()">next lesson</a>

@@ -7,4 +7,5 @@ write `(*p).X`.
 However, that notation is cumbersome, so the language permits us instead to
 write just `p.X`, without the explicit dereference.
 
-.play moretypes/struct-pointers.go
+<a onclick="nextOpen()">next lesson</a>
+

@@ -15,3 +15,5 @@ In this example, we shortened
 to
 
 	x, y int
+
+<a onclick="nextOpen()">next lesson</a>
