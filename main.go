@@ -1,9 +1,22 @@
 package main
 
-import "runtime"
+import "fmt"
 
 func main() {
-	println("Start by clicking Hello, 世界 in the window on the left")
+	fmt.Println("Inception")
+	inception()
+}
 
-	println("(", runtime.Version(), "- runs entirely in your web browser!)")
+func inception() {
+	fmt.Println("Level 1: Hello from inside Inception")
+	level2()
+}
+
+func level2() {
+	fmt.Println("Level 2: Hello from inside Level 2")
+	level3()
+}
+
+func level3() {
+	fmt.Println("Level 3: Hello from inside Level 3")
 }

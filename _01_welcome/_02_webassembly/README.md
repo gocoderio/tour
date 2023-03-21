@@ -10,18 +10,16 @@ graph TD
 </div>
 
 # The Go Playground
-This tour is built atop the web assembly, it runs inside your web browser so your code stays private.
+This tour is built in web assembly (In Go!), and runs inside your web browser.
+Go compiled to WASM runs your go program that you are writing now. 
 
-There are limitations to the programs that can be run in a web browser:
 
 - In the playground the time is accurate if your computer time is accurate.
 
-- There are no limits on execution time or CPU and memory usage, except for your hardware limits. The program can access external network hosts.
+- There are no limits on memory usage, except for your hardware limits. The program can access external network hosts.
 
-- Networking and Cross Origin API calls have been tested, but limited to what browser security allows.
+- Networking and Cross Origin API calls work with PRO accounts.
 
-The is web assembly playground uses the latest stable release of Go.
+The web assembly playground uses the latest stable release of Go.
 
-Read `Inside the GoCoder Webassembly` to learn more.
-<a onclick="nextOpen();confetti()">next lesson</a>
-
+<div class="nextLink"><a onclick="nextOpen()">next lesson</a></div>

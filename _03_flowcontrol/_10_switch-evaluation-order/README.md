@@ -1,4 +1,4 @@
-<div id="chart" class="mermaid">
+<div id="chart" class="mermaid" style="float: right; width: 50%; margin-left: 10px; margin-bottom: 10px;">
 flowchart TD
     A(Print message)
     B(Get current weekday)
@@ -30,4 +30,4 @@ does not call `f` if `i==0`.)
 #appengine: 2009-11-10 23:00:00 UTC, a value whose significance is left as an
 #appengine: exercise for the reader.
 
-<a onclick="nextOpen()">next lesson</a>
+<div class="nextLink"><a onclick="nextOpen()">next lesson</a></div>
