@@ -1,12 +1,12 @@
 # Hello, from web assembly
 <div id="chart" class="mermaid"  style="float: right; width: 50%; margin-left: 10px; margin-bottom: 10px;">
 graph TD
-    A[main] --> B[Inception]
-    B --> C[Level 1: Hello from inside Inception]
-    B --> D[level2]
-    D --> E[Level 2: Hello from inside Level 2]
-    D --> F[level3]
-    F --> G[Level 3: Hello from inside Level 3]
+    A[main]:::lineNumber=5 --> B[Inception]:::lineNumber=7
+    B --> C[Level 1: Hello from inside Inception]:::lineNumber=11
+    B --> D[level2]:::lineNumber=12
+    D --> E[Level 2: Hello from inside Level 2]:::lineNumber=16
+    D --> F[level3]:::lineNumber=17
+    F --> G[Level 3: Hello from inside Level 3]:::lineNumber=21
 </div>
 <p style="padding-left:20px;padding-right:20px;font-size:small">
 Web assembly is a browser technology that lets you create and run applications in your own web browser. This is up to 10x faster than cloud based programming (sending your code to the cloud and then waiting for the results).

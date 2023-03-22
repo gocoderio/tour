@@ -1,12 +1,11 @@
 # Hello, 世界 from Web Assembly :satellite:
 <span id="chart" class="mermaid">
 graph TD
-    A[main]:::lineNumber=5 --> B[Inception]:::lineNumber=7
-    B --> C[Level 1: Hello from inside Inception]:::lineNumber=11
-    B --> D[level2]:::lineNumber=12
-    D --> E[Level 2: Hello from inside Level 2]:::lineNumber=16
-    D --> F[level3]:::lineNumber=17
-    F --> G[Level 3: Hello from inside Level 3]:::lineNumber=21
+    A[Start]:::lineNumber=1
+    B[Import fmt package]:::lineNumber=3
+    C["Print Hello, 世界"]:::lineNumber=6
+    A --> B
+    B --> C
 </span>
 Welcome to a tour of the Go programming language.
 
