@@ -1,12 +1,12 @@
 # Hello, 世界 from Web Assembly :satellite:
-<span id="chart" class="mermaid">
+```mermaid
 graph TD
     A[Start]:::lineNumber=1
     B[Import fmt package]:::lineNumber=3
     C["Print Hello, 世界"]:::lineNumber=6
     A --> B
     B --> C
-</span>
+```
 Welcome to a tour of the Go programming language.
 
 The tour is divided into a list of modules that you can

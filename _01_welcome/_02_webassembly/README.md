@@ -1,4 +1,4 @@
-<div id="chart" class="mermaid">
+```mermaid
 graph TD
     A[Start]:::lineNumber=1
     B[Import packages]:::lineNumber=3
@@ -7,8 +7,7 @@ graph TD
     A --> B
     B --> C
     C --> D
-</div>
-
+```
 # The Go Playground
 This tour is built in web assembly (In Go!), and runs inside your web browser.
 Go compiled to WASM runs your go program that you are writing now. 
